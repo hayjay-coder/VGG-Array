@@ -46,6 +46,11 @@ pre {
   padding: 10px 15px;
   margin-bottom: 20px;
 }
+.btn:hover{
+  background-color: rgb(253, 245, 245);
+  color: rgb(236, 19, 207);
+  cursor: pointer;
+}
 
 .btn:active {
   font-weight: bold;
