@@ -1,0 +1,59 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+pre {
+  padding: 20px 4px;
+}
+
+.card {
+  box-shadow: 2px 4px 5px 0.1px gainsboro;
+  width: 500px;
+  padding: 20px 10px;
+  background: rgb(221, 211, 223);
+  margin: auto;
+  text-align: center;
+}
+.card-body{
+  background: rgb(180, 177, 177);
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgb(236, 19, 207);
+  color: rgb(253, 245, 245);
+  font-weight: bold;
+  border-style:none;
+  outline: none;
+  width: 80px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.btn:active {
+  font-weight: bold;
+}
+
+@media (max-width: 620px) {
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+}
